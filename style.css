@@ -6,23 +6,27 @@ h1{
      font-family: 'Oswald', sans-serif;
    
 }
-
+header{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
 body {
-    background-color: #0c2c0c;
+    background-color: #313446;
     padding: 0px;
     margin: 0px;
     font-family: 'Oswald', sans-serif;
-    background-image: url('src/images/numbers.jpg');
+    /*background-image: url('src/images/numbers.jpg');*/
     background-size: 100%;
 }
 
 main {
     padding: 10px;
-    margin: 10px auto;
+    margin: auto;
     background-color: #164a8da2;
     width: 350px;
     color: white;
-    border-radius: 10px;
+    border-radius: 10px 0px 0px 0px;
 }
 input {
     width: 100%;
@@ -59,10 +63,18 @@ button{
 }
 button:hover{
     background-color: rgb(35, 35, 108);
-   border-radius: 5px;
+    border-radius: 5px;
 }
 label {
     font-size: 20px;
+}
+#header{
+    padding: 10px;
+    margin: auto;
+    background-color: cyan;
+    width: 350px;
+    color: white;
+    border-radius: 10px 10px;
 }
 footer{
     text-align: center;
